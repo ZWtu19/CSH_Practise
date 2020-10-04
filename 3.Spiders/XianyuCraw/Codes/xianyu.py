@@ -18,7 +18,7 @@ headers = {
 # 定义函数生成url，并存储在列表urlsapi，函数将返回列表
 def CreateUrls(item_id_path):
     # 初始url前缀
-    urlApi = 'https://api03.6bqb.com/xianyu/detail?apikey=CF31C90264A507AEB0CAE37E02E8FFB2&' #修改路径
+    urlApi = 'https://api03.6bqb.com/xianyu/detail?apikey=***********************' #修改路径
 
     # 调用urlComplete()
     urlsApi, itemNum = urlComplete(urlApi, item_id_path)
